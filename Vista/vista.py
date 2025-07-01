@@ -2,15 +2,15 @@ import matplotlib.pyplot as plt
 
 class Vista:
     def mostrar_menu(self):
-        print("\n==== MENÚ ====")
-        print("1. Ingresar datos manualmente")
-        print("2. Usar datos predefinidos")
-        print("3. Leer último conjunto guardado")
-        print("0. Salir")
-        return input("Seleccione una opción: ")
+        print("\n====🌟 MENÚ 🌟====")
+        print("1️⃣  Ingresar datos manualmente")
+        print("2️⃣  Usar datos predefinidos")
+        print("3️⃣  Leer último conjunto guardado")
+        print("0️⃣  Salir")
+        return input("👉 Escriba una opción: ").strip().lower()
 
     def pedir_datos_manual(self):
-        entrada = input("Ingrese los números separados por comas: ")
+        entrada = input("Ingrese los números separados por comas:")
         try:
             numeros = list(map(float, entrada.split(',')))
             return numeros

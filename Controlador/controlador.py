@@ -25,8 +25,8 @@ class Controlador:
                     print("⚠️ No hay conjuntos guardados.")
                     continue
 
-            elif opcion == '0':
-                print("👋 Programa finalizado.")
+            elif opcion ==  'salir':
+                print("👋¡Hasta luego!")
                 break
 
             else:
