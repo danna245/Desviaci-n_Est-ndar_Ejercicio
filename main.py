@@ -1,5 +1,5 @@
 # main.py
-from Controlador.controlador import Controlador
+from Controller.desviacion_Es_controller import Controlador
 
 if __name__ == "__main__":
     app = Controlador()

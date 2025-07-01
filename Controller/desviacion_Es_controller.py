@@ -1,5 +1,5 @@
-from Modelo.modelo import Modelo
-from Vista.vista import Vista
+from Model.desviacion_Es import Modelo
+from View.desviacion_Es_view import Vista
 
 class Controlador:
     def __init__(self):
@@ -16,7 +16,7 @@ class Controlador:
                     self.modelo.guardar_conjunto_datos("manual", datos)
 
             elif opcion == '2':
-                datos_predefinidos = [86, 87, 88, 86, 87, 85, 86]
+                datos_predefinidos = [76, 97, 87, 46, 86, 25, 96]
                 self.modelo.guardar_conjunto_datos("predefinido", datos_predefinidos)
 
             elif opcion == '3':
